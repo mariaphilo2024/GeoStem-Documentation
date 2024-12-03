@@ -1,4 +1,4 @@
-# XPgListComponent Component Using XUI in the GEOSTEM Project
+# XPgListComponent Component in XUI in the GEOSTEM Project
 
  
 
@@ -26,15 +26,17 @@ this.injector = Injector.create({
 });
 ```
 
-+ The XPgListComponent is assigned to this.component, indicating the dynamic component to be loaded.
-The providers array specifies dependencies injected into the component.
++ The <code>XPgListComponent</code> is assigned to this.component, indicating the dynamic component to be loaded.
+- The providers array specifies dependencies injected into the component.
 
-- XPgListParamProvider: This is provided with a value of a new instance of XPgListParam.
+- <code>XPgListParamProvider</code>: This is provided with a value of a new instance of XPgListParam.
 XPgListParam Configuration:
-* entityName: Specifies the entity, here set to 'template'.
-- detailsComp: Indicates the component for detailed views, here TemplateDetComponent.
-- onInit: A callback invoked when the XPgListComponent instance is initialized.
-- sidebarFullSize: A boolean flag for sidebar settings, set to true.
+- Creates a new Injector instance using <code>Injector.create</code>.
+- The <code>useValue</code> parameter passes a new instance of XPgListParam.
+* <code>entityName</code>: Specifies the entity, here set to 'template'.
+- <code>detailsComp</code>: Indicates the component for detailed views, here TemplateDetComponent.
+- <code>onInit</code>: A callback invoked when the XPgListComponent instance is initialized.
+- <code>sidebarFullSize</code>: Configures the size of the sidebar.
 # `XpgListPageConfig` Interface
 
 The table below provides details of the properties in the `XpgListPageConfig` interface.
