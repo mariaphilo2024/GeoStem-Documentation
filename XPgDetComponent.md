@@ -84,7 +84,13 @@ this.injector = Injector.create({
 ---
 
 <h2>OutPut</h2>
+### Overview
+The  image shows a form for creating or editing an email template in the GeoStem application.
 
 ![image](https://github.com/user-attachments/assets/b92e7c1c-9336-476b-8ebe-11a2800d6a87)
+- **BrokerRejectedMail**:Indicates the name of the template being created or edited
+- **Code**: A unique identifier for the email template. This is often a system-generated value.
+- **Template Type**:Specifies the format of the email content. In this case, it is an HTML-based email template.
+- **Subject**: The subject line for the email, which can include default text or a placeholder for dynamic content.
 
  
