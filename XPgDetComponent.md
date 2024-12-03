@@ -84,7 +84,7 @@ this.injector = Injector.create({
 
 ---
 
-<h2>OutPut</h2>
+## OutPut
 ### Overview
 The  image shows a form for creating or editing an email template in the GeoStem application.
 
