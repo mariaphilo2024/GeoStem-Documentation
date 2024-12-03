@@ -25,11 +25,11 @@ this.injector = Injector.create({
 - The parent injector is set to  <code>this.inj</code>, which indicates the parent context for dependency resolution.
 
 ### XPgDetailsParamProvider
-An abstract class used as a base for providing details page parameters. It holds the <code>xpgDetailsPageConfig</code> object, which contains configuration settings and callbacks for the detail page.
+- <code>XPgDetailsParamProvider</code> serves as a dependency injection , enabling the injection of a configuration object or parameters (e.g., an instance of XPgDetailsParam) required to render or control the behavior of a detailed page component.
 ### XPgDetailsParam
-- A concrete class extending <code>XPgDetailsParamProvider</code>. It provides a specific implementation of the <code>XPgDetailsParamProvider</code> service, initialized with <code>xpgDetailsPageConfig</code>. This class is used to pass configuration details to the component.
+- <code>XPgDetailsParam</code> is a configuration class used to pass parameters and settings for rendering or managing detailed pages in an application. It typically contains properties like layout, field definitions, or data bindings to dynamically configure the detail view.
  ### XpgDetailsPageConfig
--  An interface defining the structure and properties required for configuring the details page. This interface is used to set up the detail page and control its behavior within the <code>XPgDetComponent</code>.
+-  <code>xpgDetailsPageConfig</code> is an object that holds the configuration settings for a detail page, such as layout, fields, data, and behavior, enabling dynamic rendering and customization of the page..
 ### XPgDetPageConfig Properties
 
 | **Property**          | **Type**                             | **Function**                                                                                     |
@@ -82,6 +82,8 @@ An abstract class used as a base for providing details page parameters. It holds
 | `showSave`            | `boolean`                           | Toggles visibility of the "Save" button.                                                       |
 
 ---
+
+<h2>OutPut</h2>
 
 ![image](https://github.com/user-attachments/assets/b92e7c1c-9336-476b-8ebe-11a2800d6a87)
 
