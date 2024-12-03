@@ -83,4 +83,10 @@ A screenshot from the GeoStem application, specifically showing a list of email 
 - **Name**: Descriptive name of the template (e.g., BrokerRejectedMail).
 - **Type**: Format of the template (e.g., html).
 - **Subject**: Subject line of the template email (e.g., BrokerRejectedMail:DefaultSubject).
-  
+
+ ### Purpose of the Templates Module
+The Templates section in the GeoStem application is likely used to:
+
+- Manage pre-configured email templates.
+- Automate communication processes by using templates for notifications, approvals, rejections, etc.
+- Define email content with placeholders ({{model.job_no}}, {{model.customer}}) that dynamically populate data during runtime.
