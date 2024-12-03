@@ -1,40 +1,36 @@
 # XPgDetComponent
 ## Code Example
 
-
 ```typescript
-this.component = XPgListComponent;
+this.component = XPgDetComponent;
 this.injector = Injector.create({
   providers: [
     {
-      provide: XPgListParamProvider,
-      useValue: new XPgListParam({
-        entityName: 'template',
-        detailsComp: TemplateDetComponent,
-        onInit: (instance: XPgListComponent) => {},
-        sidebarFullSize: true,
-      } as XpgListPageConfig),
+      provide: XPgDetailsParamProvider,
+      useValue: new XPgDetailsParam(xpgDetailsPageConfig),
     },
   ],
   parent: this.inj,
 });
 ```
- ### Assigning Component:
+### Component Assignment:
 
-- <code>this.component = XPgListComponent;</code>: Specifies <code>XPgListComponent</code> as the component to be loaded.
-Creating Injector:
-- <code>Injector.create</code>: Dynamically creates a new Injector instance.
-  
- ### Providers:
+- The component <code>XPgDetComponent</code> is assigned to the component property.
+### Injector Creation:
 
-- The <code>Injector</code> is configured with a provider for <code>XPgListParamProvider</code>.
-- The <code>useValue</code> parameter passes a new instance of <code>XPgListParam</code>.
- ### XPgListParam Configuration:
+- Create a new Injector using  <code>Injector.create()</code>.
+- The providers array contains a provider for  <code>XPgDetailsParamProvider</code>, which uses the value of a new XPgDetailsParam initialized with  <code>xpgDetailsPageConfig</code>.
+### Parent Injector:
 
-- <code>entityName</code>: Specifies the entity name as 'template'.
-- <code>detailsComp</code>: Sets <code>TemplateDetComponent</code> as the detailed component.
-- <code>onInit</code>: Provides an optional initialization callback function for <code>XPgListComponent</code>.
-- <code>sidebarFullSize</code>: A boolean to configure the sidebar's size.
-  ### Parent Injector:
+- The parent injector is set to  <code>this.inj</code>, which indicates the parent context for dependency resolution.
 
-- parent: <code>this.inj</code>: Sets the existing Injector as the parent for the newly created one.
+### XPgDetailsParamProvider
+An abstract class used as a base for providing details page parameters. It holds the <code>xpgDetailsPageConfig</code> object, which contains configuration settings and callbacks for the detail page.
+### XPgDetailsParam
+- A concrete class extending <code>XPgDetailsParamProvider</code>. It provides a specific implementation of the <code>XPgDetailsParamProvider</code> service, initialized with <code>xpgDetailsPageConfig</code>. This class is used to pass configuration details to the component.
+ ### XpgDetailsPageConfig
+-  An interface defining the structure and properties required for configuring the details page. It includes various settings such as <code>entityName</code>, <code>columns</code>, <code>onInit</code>, <code>close</code>, <code>save</code>, and several other optional properties. This interface is used to set up the detail page and control its behavior within the <code>XPgDetComponent</code>.
+
+
+
+ 
