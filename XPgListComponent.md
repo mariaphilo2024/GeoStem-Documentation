@@ -71,14 +71,16 @@ The table below provides details of the properties in the `XpgListPageConfig` in
 | `rowClass`             | `{ [x: string]: string }`   | Class mappings for row customization.                                          |
 
 <h2>Output</h2>
-<p>Here is a description for the <code>XPgListComponent</code> usage based on the screenshot and provided details:</p>
-<hr>
-<p><strong>Template Management Overview</strong></p>
-<p>In the example shown, the <code>XPgListComponent</code> is used in the <code>template.component.ts</code> to manage and display various template types. This page is part of the Template Management system and includes sections for Template Types and Templates.</p>
 
-![image](https://github.com/user-attachments/assets/5e57a6c1-f2d1-477d-865a-c6ef0238a28c)
+<p><strong>Templates  Overview</strong></p>
+A screenshot from the GeoStem application, specifically showing a list of email templates available in the Templates section under the System menu.
 
-- <strong>Template Types</strong>: This section displays a list of different template types such as HTML, Document, and Email.Here the template type is HTML. Each template type is listed with attributes like code, name, and document type.
-- <strong>Actions</strong>: For each template type, users can perform actions such as editing or deleting the template type. These actions are enabled by the <code>XPgListComponent</code> to facilitate interaction with the template data.
-- <strong>UI Elements</strong>: The page includes UI elements like tables, action buttons (edit, delete), and filters to help users manage template types efficiently. The table displays the data in a structured format, allowing users to view and interact with the template types easily.
+![image](https://github.com/user-attachments/assets/0705e592-118d-4756-b98b-1b1816527a35)
+
+
+- **Actions**: Includes icons for editing or deleting templates.
+- **Code**: Unique identifier for each template (e.g., TPL10496).
+- **Name**: Descriptive name of the template (e.g., BrokerRejectedMail).
+- **Type**: Format of the template (e.g., html).
+- **Subject**: Subject line of the template email (e.g., BrokerRejectedMail:DefaultSubject).
   
