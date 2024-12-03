@@ -83,5 +83,6 @@ An abstract class used as a base for providing details page parameters. It holds
 
 ---
 
+![image](https://github.com/user-attachments/assets/b92e7c1c-9336-476b-8ebe-11a2800d6a87)
 
  
