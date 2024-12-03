@@ -1,7 +1,7 @@
-# Template Component Using XUI in the GEOCONNECT Project📝
+# Template Component Using XUI in the GEOCONNECT Project
 
-This document provides detailed information on the **Template** component using the **XUI** component in the **GEOCONNECT** project. 
-<h2>🛠️Code Structure:</h2>
+This document provides detailed information on the **Template** component using the **XUI** component in the **GEOSTEM** project. 
+
 # Dynamic Component Initialization with Injector
 
 This snippet demonstrates how to initialize a component dynamically using the `Injector.create()` method in Angular.
