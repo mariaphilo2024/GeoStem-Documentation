@@ -29,7 +29,7 @@ An abstract class used as a base for providing details page parameters. It holds
 ### XPgDetailsParam
 - A concrete class extending <code>XPgDetailsParamProvider</code>. It provides a specific implementation of the <code>XPgDetailsParamProvider</code> service, initialized with <code>xpgDetailsPageConfig</code>. This class is used to pass configuration details to the component.
  ### XpgDetailsPageConfig
--  An interface defining the structure and properties required for configuring the details page. It includes various settings such as <code>entityName</code>, <code>columns</code>, <code>onInit</code>, <code>close</code>, <code>save</code>, and several other optional properties. This interface is used to set up the detail page and control its behavior within the <code>XPgDetComponent</code>.
+-  An interface defining the structure and properties required for configuring the details page. This interface is used to set up the detail page and control its behavior within the <code>XPgDetComponent</code>.
 ### XPgDetPageConfig Properties
 
 | **Property**          | **Type**                             | **Function**                                                                                     |
