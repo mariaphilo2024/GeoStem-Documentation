@@ -1,6 +1,6 @@
-# Template Component Using XUI in the GEOCONNECT Project
+# Template Component Using XUI in the GEOSTEM Project
 
-This document provides detailed information on the **Template** component using the **XUI** component in the **GEOSTEM** project. 
+ 
 
 # Dynamic Component Initialization with Injector
 
