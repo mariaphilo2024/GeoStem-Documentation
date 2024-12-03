@@ -1,10 +1,7 @@
-# XPgListComponent Component in XUI in the GEOSTEM Project
+# XPgListComponent 
 
+<code>XPgListComponent</code> is a dynamic, reusable Angular component designed to render list-based views for entities. It integrates with configuration options like entity name, detail components, and callbacks to customize behavior and layout. Ideal for rapid UI generation, it supports dependency injection for flexible use in various contexts.
  
-
-# Dynamic Component Initialization with Injector
-
-This snippet demonstrates how to initialize a component dynamically using the `Injector.create()` method in Angular.
 
 ## Code Example
 
@@ -34,9 +31,10 @@ XPgListParam Configuration:
 - Creates a new Injector instance using <code>Injector.create</code>.
 - The <code>useValue</code> parameter passes a new instance of XPgListParam.
 * <code>entityName</code>: Specifies the entity, here set to 'template'.
-- <code>detailsComp</code>: Indicates the component for detailed views, here TemplateDetComponent.
-- <code>onInit</code>: A callback invoked when the XPgListComponent instance is initialized.
+- <code>detailsComp</code>: Indicates the component for detailed views, here <code>TemplateDetComponent</code>.
+- <code>onInit</code>: A callback invoked when the <code>XPgListComponent</code> instance is initialized.
 - <code>sidebarFullSize</code>: Configures the size of the sidebar.
+- <code>parent: this.inj</code>: Sets the existing <code>Injector</code> as the parent for the newly created one.
 # `XpgListPageConfig` Interface
 
 The table below provides details of the properties in the `XpgListPageConfig` interface.
@@ -72,20 +70,15 @@ The table below provides details of the properties in the `XpgListPageConfig` in
 | `checkboxTpl`          | `TemplateRef<any>`          | Template for custom checkboxes.                                                |
 | `rowClass`             | `{ [x: string]: string }`   | Class mappings for row customization.                                          |
 
-## Example Usage
+<h2>Output</h2>
+<p>Here is a description for the <code>XPgListComponent</code> usage based on the screenshot and provided details:</p>
+<hr>
+<p><strong>Template Management Overview</strong></p>
+<p>In the example shown, the <code>XPgListComponent</code> is used in the <code>template.component.ts</code> to manage and display various template types. This page is part of the Template Management system and includes sections for Template Types and Templates.</p>
 
-```typescript
-const listPageConfig: XpgListPageConfig = {
-  entityName: 'exampleEntity',
-  columns: [
-    { name: 'Column 1', type: 'string' },
-    { name: 'Column 2', type: 'number' },
-  ],
-  onInit: (instance) => {
-    console.log('List initialized:', instance);
-  },
-  detailsComp: ExampleDetailsComponent,
-  sidebarFullSize: true,
-  filterBeforeTpl: myFilterBeforeTemplate,
-  afterActionTemplate: myAfterActionTemplate,
-};
+![image](https://github.com/user-attachments/assets/5e57a6c1-f2d1-477d-865a-c6ef0238a28c)
+
+- <strong>Template Types</strong>: This section displays a list of different template types such as HTML, Document, and Email.Here the template type is HTML. Each template type is listed with attributes like code, name, and document type.
+- <strong>Actions</strong>: For each template type, users can perform actions such as editing or deleting the template type. These actions are enabled by the <code>XPgListComponent</code> to facilitate interaction with the template data.
+- <strong>UI Elements</strong>: The page includes UI elements like tables, action buttons (edit, delete), and filters to help users manage template types efficiently. The table displays the data in a structured format, allowing users to view and interact with the template types easily.
+  
