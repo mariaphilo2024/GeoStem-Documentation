@@ -64,3 +64,9 @@ An Injector is created using <code>Injector.create()</code>. The configuration i
 | `downloading`          | `boolean`                        | Tracks if a file or data is being downloaded.                                |
 | `items`                | `ItemEntityDto<string>[]`        | List of items/entities displayed or managed on the page.                     |
 | `blockCancel`          | `boolean`                        | Flags whether cancel actions should be blocked.                              |
+
+## Output
+
+![image](https://github.com/user-attachments/assets/2a63075d-df54-491a-8944-cf38f7d44f74)
+
+
