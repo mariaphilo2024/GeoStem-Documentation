@@ -6,3 +6,5 @@ The XUI framework is an Angular-based tool that automatically generates frontend
 [1.XPgListComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XPgListComponent.md).
 
 [2.XPgDetComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XPgDetComponent.md).
+
+[3.XPgDetailsComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XPgDetailsComponent.md).
