@@ -66,7 +66,11 @@ An Injector is created using <code>Injector.create()</code>. The configuration i
 | `blockCancel`          | `boolean`                        | Flags whether cancel actions should be blocked.                              |
 
 ## Output
+The <code>XPgDetailsComponent</code> is a dynamic Angular component designed for displaying and editing detailed information about selected items in the application. It provides a user-friendly interface for interacting with data, allowing users not only to view details but also to edit and save changes directly.  The <code>XPgDetailsComponent</code> is applied to manage the Fuel Parameter module in the GeoStem application.
 
 ![image](https://github.com/user-attachments/assets/2a63075d-df54-491a-8944-cf38f7d44f74)
 
-
+- The <code>XPgDetailsComponent</code> is used to render the form on the right side of the image, which provides detailed information about a selected **fuel parameter**.
+- Unlike read-only components, <code>XPgDetailsComponent</code> facilitates active user interaction. For instance, users can update fuel parameters (e.g., modifying the maximum density value) and save changes with the provided Save button.
+- The <code>XPgDetailsComponent</code> ensures that all entities or parameters in the system use a consistent, reusable interface for managing their details. For example, other entities like Grade Groups or Sulphur could use the same component with their specific configurations.
+- In the context of the image, the XPgDetailsComponent is applied to the Fuel Parameter module, enabling users to update properties such as Density @ 15°C, its Min/Max values, and associated configurations like GradeSpec or Link Code.
