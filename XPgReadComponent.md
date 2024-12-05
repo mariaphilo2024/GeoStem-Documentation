@@ -58,4 +58,9 @@ this.injector = Injector.create({
 
 ## Output
 <code>XPgReadComponent</code> is used for displaying or managing detailed, read-only views of data, with dynamic configuration provided via dependency injection.
-![image](https://github.com/user-attachments/assets/ac60a27c-5845-4851-a865-eb23c6d4bfe3)
+![image](https://github.com/user-attachments/assets/4e3de9b2-a10e-4311-942b-e4be589db923)
+- In the example shown the <code>XPgReadComponent</code> is used in the agent-read.component .ts to display comprehensive details about an agent. The page includes multiple sections such as personal information, ports, bank accounts, and contact information.
+- **Agent Details**: On the left, the agent's personal information including name, status, address, country, phone number and email is displayed.
+- **Tabs and Sections**: The main section includes tabs for Ports, Bank Accounts, and Contact Information. Each tab provides relevant details in a structured format. For example, the Bank Accounts tab lists multiple bank accounts with detailed information about each account.
+- **UI Elements**: The page includes various UI elements like tables, tabs, and informational panels to enhance the readability and usability of the information.
+
