@@ -22,7 +22,7 @@ XListComponent is  designed to display and manage lists of data. It acts as a dy
 ### Provider
 - **<code>provide: XListParamProvider</code>**: Specifies the token <code>XListParamProvider</code> to identify the dependency.
 - **<code>useValue: new XListParam(xListInput)</code>**: Creates a new instance of XListParam with the argument <code>xListInput</code>. This object is provided whenever <code>XListParamProvider</code> is requested.
-### Parent Inlector
+### Parent Injector
 - Sets the <code>this.inj</code> (presumably an existing injector) as the parent for the newly created injector. This ensures that the new injector can inherit and resolve dependencies from its parent if not provided explicitly.
 - **<code>XListParam</code>** is a class or object that holds configuration data or parameters for customizing the behavior of <code>XListComponent</code>.
 
