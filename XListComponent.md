@@ -26,7 +26,7 @@ XListComponent is  designed to display and manage lists of data. It acts as a dy
 - Sets the <code>this.inj</code> (presumably an existing injector) as the parent for the newly created injector. This ensures that the new injector can inherit and resolve dependencies from its parent if not provided explicitly.
 - **<code>XListParam</code>** is a class or object that holds configuration data or parameters for customizing the behavior of <code>XListComponent</code>.
 
- ## Properties of XListInput:
+ ## Properties of XListComponent:
 
 | Property            | Type                          | Function                                      |
 |---------------------|-------------------------------|----------------------------------------------|
