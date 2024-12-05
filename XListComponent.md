@@ -62,6 +62,11 @@ XListComponent is  designed to display and manage lists of data. It acts as a dy
 
 
 ## Output
+The XListComponent is a reusable Angular component in  XUI framework that dynamically renders lists or tables based on configuration. 
 ![image](https://github.com/user-attachments/assets/abce00bb-8b0b-4fe8-94b4-ed96afb17b59)
 
-
+- The table displayed (e.g., Agent Ports with columns like Country, Port, Email, and Active) is dynamically generated based on configuration passed to the <code>XListComponent</code>.
+- Edit and Delete icons are dynamically rendered with functionalities tied to respective events.
+- Sorting icons are visible, allowing users to sort data in ascending or descending order for columns.
+- Pagination controls at the bottom are part of the component, enabling navigation between pages.
+- The same XListComponent can be reused across multiple modules like Agents, Ports, Contacts, etc., with different configurations.
