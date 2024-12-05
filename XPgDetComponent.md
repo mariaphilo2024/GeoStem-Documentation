@@ -93,5 +93,5 @@ The  image shows a form for creating or editing an email template where the XPgD
 - **Code**: A unique identifier for the email template. This is often a system-generated value.
 - **Template Type**:Specifies the format of the email content. In this case, it is an HTML-based email template.
 - **Subject**: The subject line for the email, which can include default text or a placeholder for dynamic content.
-
+- The <code>XPgDetComponent</code> is used for creating editable detail pages in the application. Unlike read-only components, the <code>XPgDetComponent</code> allows for user interaction to update and save changes to the data. 
  
