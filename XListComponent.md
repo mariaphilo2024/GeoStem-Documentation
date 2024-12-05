@@ -61,4 +61,7 @@ XListComponent is  designed to display and manage lists of data. It acts as a dy
 | `disableParentNav`  | `boolean`                    | Disables parent navigation if true.          |
 
 
+## Output
+![image](https://github.com/user-attachments/assets/abce00bb-8b0b-4fe8-94b4-ed96afb17b59)
+
 
