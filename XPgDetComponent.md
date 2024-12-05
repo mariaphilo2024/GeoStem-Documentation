@@ -86,7 +86,7 @@ this.injector = Injector.create({
 
 ## OutPut
 ### Overview
-The  image shows a form for creating or editing an email template in the GeoStem application.
+The  image shows a form for creating or editing an email template where the XPgDetComponent is utilized..
 
 ![image](https://github.com/user-attachments/assets/b92e7c1c-9336-476b-8ebe-11a2800d6a87)
 - **BrokerRejectedMail**:Indicates the name of the template being created or edited
