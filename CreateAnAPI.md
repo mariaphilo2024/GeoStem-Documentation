@@ -5,4 +5,8 @@ There are several types of APIs. Here we are using **Database API**
 
 A **Database API** is an interface that allows applications to interact with a database programmatically. It provides a standardized way for applications to send commands (such as queries, updates, and deletions) to a database and receive responses without directly accessing the underlying database structure.
 
-Here are the steps to create an API for 'country'. 
+Here are the steps to create an API for **Country**. 
+<ol>
+  <li>Create the Country folder and class in the Domain layer. </li>
+    
+</ol>
