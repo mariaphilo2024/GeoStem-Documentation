@@ -184,9 +184,7 @@ builder.Entity<Country>(b =>
 - Run the Project.
 
 ![image](https://github.com/user-attachments/assets/1b5119d7-0d48-4933-8f74-68b0f4617c18)
-
 ![image](https://github.com/user-attachments/assets/3a75bc2d-42b5-4b6c-b262-34839601a784)
-
 ![image](https://github.com/user-attachments/assets/30fadd58-ea77-46ce-9366-59879d4170b3)
 
 
