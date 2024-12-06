@@ -156,7 +156,7 @@ builder.Entity<Country>(b =>
 - Go to the Permissions folder
 - Open a file named GeneralMasterPermission.cs.
 - Add a Permission for CountryMaster.
-- 
+  
   **Step 9: Register Master Permission in GeoStem.Application**
 - Go to Countries folder
 - Open CounrtService.cs
