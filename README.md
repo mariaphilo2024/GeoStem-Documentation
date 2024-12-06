@@ -1,5 +1,5 @@
 ## GeoStem-Documentation
-This document explains about the detailed information of XUI components used with in the GEOSTEM project.
+This document explains detailed information of Back-end, Front-end and XUI components used with in the GEOSTEM project.
 ## Architecture Diagrams
 [System Archtecture](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/images/SystemArchitecture.md)
 
