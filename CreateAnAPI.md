@@ -65,6 +65,38 @@ In the **DbContext class**, add a **DbSet** property for the Country entity. Thi
       b.HasOne(c => c.Continent).WithMany().HasForeignKey(x => x.ContinentId);
   });
 ```
+**Step 4: Configure the Database Connection String in appsettings.json** 
+- Add or update the ConnectionStrings section to include the database connection string.
+```
+{
+    "ConnectionStrings": {
+        //DO NOT COMMIT THIS FILE, IF CHANGED!!
+        "Default": "Server=localhost\\SQLEXPRESS;Database=GeoStem;Trusted_Connection=True;TrustServerCertificate=True"
+    },
+  "OpenIddict": {
+    "Applications": {
+      "GeoStem_Web": {
+        "ClientId": "GeoStem_Web",
+        "ClientSecret": "1q2w3e*",
+        "RootUrl": "https://localhost:44378"
+      },
+      "GeoStem_App": {
+        "ClientId": "GeoStem_App",
+        "RootUrl": "http://localhost:4410"
+      },
+      "GeoStem_BlazorServerTiered": {
+        "ClientId": "GeoStem_BlazorServerTiered",
+        "ClientSecret": "1q2w3e*",
+        "RootUrl": "https://localhost:44336"
+      },
+      "GeoStem_Swagger": {
+        "ClientId": "GeoStem_Swagger",
+        "RootUrl": "https://localhost:44351"
+      }
+    }
+  }
+}
+```
 
 
     
