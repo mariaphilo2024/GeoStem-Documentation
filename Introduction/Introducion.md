@@ -2,7 +2,8 @@ The **GEOSTEM** project is built on the **ABP (ASP.NET Boilerplate Platform)**. 
 
  The  **GEOSTEM** project consists of two key components: a backend API developed with **ASP.NET Core** and a front-end UI developed with **Angular**. Both components are built on the **ABP Framework**. 
  
-![image](https://github.com/user-attachments/assets/4a9c2d1a-2dca-4012-ae26-e44f83345fba)
+![image](https://github.com/user-attachments/assets/2b07911f-5a46-4136-aad4-695b0dd2b12a)
+
 
 
 
