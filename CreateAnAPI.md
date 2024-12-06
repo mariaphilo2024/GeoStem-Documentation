@@ -83,6 +83,8 @@ builder.Entity<Country>(b =>
 - Add command 'Add-Migration' "Create-Country"
 - Run the project.
   In this step migration files will be created.
+- Add Command 'update-database'
+  Table will be created in the database.
 
 **Step 6: Create DTOs for Country in GeoStem.Application.Contracts**
 - DTOs act as a protective layer between the database and the API consumers, ensuring that changes to the database schema do not directly impact the API contracts.
