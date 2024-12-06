@@ -83,7 +83,7 @@ builder.Entity<Country>(b =>
 - Add command 'Add-Migration' "Create-Country"
 - Run the project.
   In this step migration files will be created.
-- Add Command 'update-database'
+- Add Command 'update-database'.
   Table will be created in the database.
 
 **Step 6: Create DTOs for Country in GeoStem.Application.Contracts**
