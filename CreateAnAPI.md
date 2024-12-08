@@ -12,7 +12,7 @@ Most common types of APIs.
 
 Here are the steps to create an API for **Country**. 
 
- **Step1: Create the Country folder and class in the Domain layer.** 
+ **Step1: Create the Countries folder and country class in the Domain layer.** 
 
  ```
 namespace GeoStem.Countries
