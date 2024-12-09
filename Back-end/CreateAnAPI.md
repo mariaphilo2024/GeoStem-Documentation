@@ -1,4 +1,4 @@
-### Create an API
+## Create an API
 An **API** (Application Programming Interface) is a set of rules and protocols that allows one software application to interact with another. They enable different applications, services, or platforms to communicate and work together, even if they’re built on different technologies.
 
 Most common types of APIs. 
