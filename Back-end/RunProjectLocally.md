@@ -27,18 +27,41 @@ Step 2. This opens the `secrets.json`
 Step 3. Replace the content as below:
 ````json
 {
-  "App:CorsOrigins": "https://*.AgencyPlatform.com,http://localhost:4210,https://localhost:44307,http://localhost:54321",
-  "App:AngularUrl": "http://localhost:4210",
-  "App:SelfUrl": "https://localhost:44353",
-  "AuthServer:Authority": "https://localhost:44353",
-  "ConnectionStrings:Default": "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=focali-db;Integrated Security=True;MultipleActiveResultSets=True",
-  "MarineTraffic:ApiKey": "",
-  "Storage:Azure": "DefaultEndpointsProtocol=https;AccountName=focalidev;AccountKey=PDOk3tmy9XvNEW55NdVXDt8YINp/S4ehYQ+4NHfZj5VDu710PxRtpspdSTcm+gvwB1qNTPWP3l3yxQpQ3bIcgA==;EndpointSuffix=core.windows.net",
-  "StormGlass:ApiKey": "",
-  "Twilio:AccoiuntSid": "",
-  "Twilio:AuthToken": "",
-  "Twilio:From": "",
-  "APPLICATIONINSIGHTS_CONNECTION_STRING": "InstrumentationKey=a5bc0bed-6d2f-4c0f-9211-033685b157fe;IngestionEndpoint=https://centralindia-0.in.applicationinsights.azure.com/"
+  "App": {
+    "SelfUrl": "https://localhost:44351",
+    "ClientUrl": "http://localhost:4410",
+    "CorsOrigins": "https://*.GeoStem.com,http://localhost:4410",
+    "RedirectAllowedUrls": "http://localhost:4410"
+  },
+  "MyAppCertificate": {
+    "X590": "agyge$56nunasopj"
+  },
+  "ConnectionStrings": {
+    "Default": "Server=localhost\\SQLEXPRESS;Database=GeoStem;Trusted_Connection=True;TrustServerCertificate=True"
+  },
+  "AuthServer": {
+    "Authority": "https://localhost:44351",
+    "RequireHttpsMetadata": "false",
+    "SwaggerClientId": "GeoStem_Swagger"
+  },
+  "StringEncryption": {
+    "DefaultPassPhrase": "N2A9CNDxecVvXGaR"
+  },
+  "Storage:Azure": "DefaultEndpointsProtocol=https;AccountName=geostemuat;AccountKey=t/lYSw9x/o64os8tUwFl3GUXTfg1W//LEemv0qAdArVflCKPLiuxknZdhTPlJZeJrp0kBVj+w6qN+AStvyoAnw==;EndpointSuffix=core.windows.net",
+
+  "AzureAd:TenantId": "b364406c-7174-462e-97cd-a4fbe7f1c9ee",
+  "AzureAd:ClientId": "a7bc52e1-db90-4f19-b497-3dd5b43cc6c0",
+  "AzureAd:ClientSecret": "Ss38Q~jjlf.21HiPRW680TKWzmCdy8IcytyKpdbx",
+  "AzureAd:CallbackPath": "/signin-azuread-oidc"
+
+  "AzureAd:TenantId": "b364406c-7174-462e-97cd-a4fbe7f1c9ee",
+  "AzureAd:ClientId": "a7bc52e1-db90-4f19-b497-3dd5b43cc6c0",
+  "AzureAd:ClientSecret": "w_n8Q~FjdNTvEEGWVvFoZ-0NVh0gIqBGEJw6tcXa",
+  "AzureAd:CallbackPath": "/signin-azuread-oidc"
+  "AzureAd:TenantId": "b364406c-7174-462e-97cd-a4fbe7f1c9ee",
+  "AzureAd:ClientId": "a7bc52e1-db90-4f19-b497-3dd5b43cc6c0",
+  "AzureAd:ClientSecret": "FD.8Q~edDQy3Vm~hJ1j1JdmE0mWtQ2OdZajOBa8v",
+  "AzureAd:CallbackPath": "/signin-azuread-oidc"
 }
 ````
 ![Alt text](docs/images/screenshot-user-secrets-003.png?raw=true "Manage User Secrets")
