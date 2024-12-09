@@ -4,9 +4,9 @@
 Setup Your Development Environment
 **Pre-Requirements**
 
-https://visualstudio.microsoft.com/vs/
+Visual Studio2022.
 
-https://www.microsoft.com/net/download/dotnet-core/
+.Net Core7+
 
 
 Go to the aspnet-core folder, open GeoStem.sln
