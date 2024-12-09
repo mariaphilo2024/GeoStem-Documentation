@@ -1,5 +1,5 @@
 # Agency Platform
-![.NET Core](https://github.com/Ingenium-Marine-Solutions/agency-platform/workflows/.NET%20Core/badge.svg?branch=main)
+![.NET Core](https://github.com/Ingenium-Marine-Solutions/GeoStem/workflows/.NET%20Core/badge.svg?branch=main)
 
 ##### Tech Stack
 - [ASP.NET Core](https://dotnet.microsoft.com/learn/aspnet/what-is-aspnet-core)
@@ -13,13 +13,13 @@ _Pre-Requirements_
 * [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)
 * [.NET Core 3.1+](https://www.microsoft.com/net/download/dotnet-core/)
 
-Go to the `aspnet-core` folder, open `AgencyPlatform.sln`
+Go to the `aspnet-core` folder, open `GeoStem.sln`
 
 ### 1. Create the Database
 
 ##### Connection String
 
-Step 1. Right Click `AgencyPlatform.HttpApi.Host` project and select `Manage User Secrets`
+Step 1. Right Click `GeoStem.HttpApi.Host` project and select `Manage User Secrets`
 ![Alt text](docs/images/screenshot-user-secrets-001.png?raw=true "Manage User Secrets")
 
 Step 2. This opens the `secrets.json`
@@ -64,14 +64,7 @@ Step 3. Replace the content as below:
   "AzureAd:CallbackPath": "/signin-azuread-oidc"
 }
 ````
-![Alt text](docs/images/screenshot-user-secrets-003.png?raw=true "Manage User Secrets")
 
-> Repeat **Step 1-3** for `AgencyPlatform.DbMigrator` and `AgencyPlatform.EntityFrameworkCore.DbMigrations` project with below content
-````json
-{
-  "ConnectionStrings:Default": "Data Source=(localdb)\\mssqllocaldb;Initial Catalog=focali-db;Integrated Security=True;MultipleActiveResultSets=True"
-}
-````
 ![Alt text](docs/images/screenshot-user-secrets-002.png?raw=true "Manage User Secrets")
 
 The solution is configured to use **Entity Framework Core** with **MS SQL Server**
@@ -80,11 +73,11 @@ The solution is configured to use **Entity Framework Core** with **MS SQL Server
 
 The solution uses the [Entity Framework Core Code First Migrations](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli). So, you need to apply migrations to create the database.
 
-The solution has `AgencyPlatform.DbMigrator` console application which applies migrations and also **seeds the initial data**. It is useful on **development** as well as on **production** environment.
+The solution has `GeoStem.DbMigrator` console application which applies migrations and also **seeds the initial data**. It is useful on **development** as well as on **production** environment.
 
-> You have already changed the connection string of `AgencyPlatform.DbMigrator` as per above steps. 
+> You have already changed the connection string of `GeoStem.DbMigrator` as per above steps. 
 
-- Right click `AgencyPlatform.DbMigrator` project and select **Set as StartUp Project**
+- Right click `GeoStem.DbMigrator` project and select **Set as StartUp Project**
 - Hit F5 (or Ctrl+F5) to run the application.
 
 > Initial seed data creates the `admin` user in the database (with the password is `1q2w3E*`) which is then used to login to the application.
@@ -94,12 +87,12 @@ The solution has `AgencyPlatform.DbMigrator` console application which applies m
 Use the Ef Core `Update-Database` command which applies pending schema migrations during development time.
 
 - Right click to the `AgencyPlatform.HttpApi.Host` project and select **Set as StartUp Project**: 
-- Open the **Package Manager Console**, select `AgencyPlatform.EntityFrameworkCore.DbMigrations` project as the **Default Project** and run the `Update-Database` command:
+- Open the **Package Manager Console**, select `GeoStem.EntityFrameworkCore` project as the **Default Project** and run the `Update-Database` command:
 
-> **`AgencyPlatform.DbMigrator` tool**, always migrates the schema and seeds the database, where `Update-Database` only migrates the schema.
+> **`GeoStem.DbMigrator` tool**, always migrates the schema and seeds the database, where `Update-Database` only migrates the schema.
 
 ##### Run the Application
-Ensure that the `AgencyPlatform.HttpApi.Host` project is the startup project and run the application which will open a **Swagger UI** in your browser.
+Ensure that the `GeoStem.HttpApi.Host` project is the startup project and run the application which will open a **Swagger UI** in your browser.
 
 > Use Ctrl+F5 in Visual Studio (instead of F5) to run the application without debugging. If you don't have a debug purpose, this will be faster.
 
@@ -121,7 +114,7 @@ _Pre-Requirements_
 
 #### Run the Angular App
 - Open `angular` folder
-- Open the file `AgencyPlatform.code-workspace` in VS Code
+- Open the file `GeoStem.code-workspace` in VS Code
 - Open a command line terminal
 - Enter the command `yarn`
 - Once all node modules are loaded, execute `yarn start` command
@@ -138,5 +131,5 @@ _Pre-Requirements_
 
 #### Run the Flutter App
 - Open `flutter` folder
-- Open the file `AgencyPlatformFlutter.code-workspace` in VS Code
+- Open the file `GeoStem.code-workspace` in VS Code
 - Press `F5` to start
