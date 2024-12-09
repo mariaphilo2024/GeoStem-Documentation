@@ -11,7 +11,7 @@ This document explains detailed information of Back-end, Front-end and XUI compo
 ### Back-end
 [Run the Project Locally](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/Back-end/RunProjectLocally.md)
 
-[Create An API](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/CreateAnAPI.md)
+[Create an API](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/Back-end/CreateAnAPI.md)
 
 ### XUI Framework
 The XUI framework is an Angular-based tool that automatically generates frontend pages for backend APIs. By using a dynamic approach, it eliminates the need to manually create UI components. This framework streamlines the process of integrating APIs with the frontend, ensuring that pages are created automatically and efficiently.
