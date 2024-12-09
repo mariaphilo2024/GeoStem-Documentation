@@ -1,4 +1,4 @@
-# Agency Platform
+# GeoStem
 ![.NET Core](https://github.com/Ingenium-Marine-Solutions/GeoStem/workflows/.NET%20Core/badge.svg?branch=main)
 
 ##### Tech Stack
