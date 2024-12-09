@@ -9,6 +9,8 @@ This document explains detailed information of Back-end, Front-end and XUI compo
 [Technical Architecture](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/images/TechnicalArchitecture.md)
 
 ### Back-end
+[Run the Project Locally](https://github.com/mariaphilo2024/GeoStem-Documentation/edit/main/Back-end/RunProjectLocally.md)
+
 [Create An API](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/CreateAnAPI.md)
 
 ### XUI Framework
