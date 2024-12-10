@@ -31,7 +31,7 @@ this.injector = Injector.create({
 - <code>XPgDetailsParam</code> is a configuration class used to pass parameters and settings for rendering or managing detailed pages in an application. It typically contains properties like layout, field definitions, or data bindings to dynamically configure the detail view.
  ### XpgDetailsPageConfig
 -  <code>xpgDetailsPageConfig</code> is an object that holds the configuration settings for a detail page, such as layout, fields, data, and behavior, enabling dynamic rendering and customization of the page..
-### XPgDetPageConfig Properties
+### XPgDetPageConfig Properties:🧩
 
 | **Property**          | **Type**                             | **Function**                                                                                     |
 |------------------------|--------------------------------------|-------------------------------------------------------------------------------------------------|
