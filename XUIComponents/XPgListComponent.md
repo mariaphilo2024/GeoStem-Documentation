@@ -3,7 +3,7 @@
 <code>XPgListComponent</code> is a dynamic, reusable Angular component designed to render list-based views for entities. It integrates with configuration options like entity name, detail components, and callbacks to customize behavior and layout. Ideal for rapid UI generation, it supports dependency injection for flexible use in various contexts.
  
 
-## Code Example
+## Code Example📝
 
 ```typescript
 this.component = XPgListComponent;
