@@ -25,7 +25,7 @@ An Injector is created using <code>Injector.create()</code>. The configuration i
 - **XPgDetailsParam** is a configuration class used to pass parameters to the <code>XPgDetailsComponent</code>. It encapsulates the data and settings required to customize the component's behavior, such as layout, field mappings, or entity-specific details.
 - **xpgDetailsPageConfig** is an instance of a configuration object (likely based on the <code>XPgDetailsParam</code> class) that defines the settings and data structure for rendering the <code>XPgDetailsComponent</code>.
 
-  # Properties of xpgDetailsPageConfig:
+  ## Properties of xpgDetailsPageConfig:🧩
 
 
 | **Property**           | **Type**                          | **Function**                                                                 |
