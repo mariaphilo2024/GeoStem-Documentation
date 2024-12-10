@@ -9,9 +9,7 @@ This document explains detailed information of Back-end, Front-end and XUI compo
 [Technical Architecture](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/images/TechnicalArchitecture.md)
 
 ## GeoStem Application Demo
-<a href="https://drive.google.com/file/d/1CDSiecacWq9dZLvC2J5--Y2Jhtfu80uR/view" target="_blank" Style="color:green;
-  background-color:transparent;
-  text-decoration:none;"
+<a href="https://drive.google.com/file/d/1CDSiecacWq9dZLvC2J5--Y2Jhtfu80uR/view" target="_blank" 
  >GeoStem-Application-Demo</a>
 
 ### Back-end
