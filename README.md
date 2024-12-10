@@ -10,7 +10,9 @@ This document explains detailed information of Back-end, Front-end and XUI compo
 
 ## GeoStem Application Demo
 <a href="https://drive.google.com/file/d/1CDSiecacWq9dZLvC2J5--Y2Jhtfu80uR/view" target="_blank" >GeoStem-Application-Demo</a>
-[Demo](https://drive.google.com/file/d/1CDSiecacWq9dZLvC2J5--Y2Jhtfu80uR/view){:target=”_blank”}
+
+[Demo](https://drive.google.com/file/d/1CDSiecacWq9dZLvC2J5--Y2Jhtfu80uR/view) {:target=”_blank”}
+
 ### Back-end
 [Run the Project Locally](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/Back-end/RunProjectLocally.md)
 
