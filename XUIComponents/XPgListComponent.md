@@ -35,7 +35,7 @@ XPgListParam Configuration:
 - <code>onInit</code>: A callback invoked when the <code>XPgListComponent</code> instance is initialized.
 - <code>sidebarFullSize</code>: Configures the size of the sidebar.
 - <code>parent: this.inj</code>: Sets the existing <code>Injector</code> as the parent for the newly created one.
-# `XpgListPageConfig` Interface
+## `XpgListPageConfig` Interface:🧩
 
 The table below provides details of the properties in the `XpgListPageConfig` interface.
 
