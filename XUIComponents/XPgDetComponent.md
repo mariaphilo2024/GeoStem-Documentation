@@ -1,6 +1,6 @@
 # XPgDetComponent📖
 This component typically handles displaying fields, handling user inputs, and managing the layout for a detailed page view. It is part of a dynamic page generation system, where it renders detailed information based on the provided configuration and parameters.
-## Code Example
+## Code Example📝
 
 ```typescript
 this.component = XPgDetComponent;
