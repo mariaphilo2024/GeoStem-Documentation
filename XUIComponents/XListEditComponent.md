@@ -56,7 +56,7 @@ The purpose of `XListEditComponent` is to manage "list-edit" operations, providi
  ### Parent Injector:
  - Establishes `this.inj` as the parent injector, enabling hierarchical dependency injection.
 
-## XListEditComponent Properties:
+## XListEditComponent Properties:🧩
 
 | Property              | Type                        | Function                                                                 |
 |-----------------------|-----------------------------|--------------------------------------------------------------------------|
