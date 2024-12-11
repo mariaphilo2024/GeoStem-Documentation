@@ -21,12 +21,14 @@ The XUI framework is an Angular-based tool that automatically generates frontend
 ### XUI Components📖
 [1.XListComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XUIComponents/XListComponent.md)
 
-[2.XPgDetComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XUIComponents/XPgDetComponent.md)
+[2.XListEditComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XUIComponents/XListEditComponent.md)
 
-[3.XPgDetailsComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XUIComponents/XPgDetailsComponent.md).
+[3.XPgDetComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XUIComponents/XPgDetComponent.md)
 
-[4.XPgListComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XUIComponents/XPgListComponent.md)
+[4.XPgDetailsComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XUIComponents/XPgDetailsComponent.md).
 
-[5.XPgReadComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XUIComponents/XPgReadComponent.md)
+[5.XPgListComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XUIComponents/XPgListComponent.md)
+
+[6.XPgReadComponent](https://github.com/mariaphilo2024/GeoStem-Documentation/blob/main/XUIComponents/XPgReadComponent.md)
 
 
