@@ -12,6 +12,11 @@ The XListEditComponent in the GeoStem project is a part of the XUI framework. It
             entityName: 'invoice-additional-cost',
             tableWrapperClass: 'overflow-y-auto',
             parentPageMode: parentPageMode,
+            columns: [
+              { prop: 'inquiryDetailId', defaultValue: this.xpDetRef.id },
+              { prop: 'invoiceCustomerId', defaultValue: row.id },
+              { prop: 'inquiryFuelDetailId', defaultValue: row.inquiryFuelDetailId },
+               ] as Property[],
             items: items,
             isRowReadOnly: (row: InvoiceAdditionalCostDto, formGroup) => {
               return parentPageMode === 'read';
