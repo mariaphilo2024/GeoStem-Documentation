@@ -117,5 +117,6 @@ The purpose of `XListEditComponent` is to manage "list-edit" operations, providi
 
 ## Output🖼️
 
-![image](https://github.com/user-attachments/assets/2cfaad5b-c334-4397-ae2e-8f1d7ea7fff9)
+![image](https://github.com/user-attachments/assets/7678e3d3-427a-443a-b669-343269413563)
+
 
