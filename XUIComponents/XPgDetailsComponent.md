@@ -65,7 +65,7 @@ An Injector is created using <code>Injector.create()</code>. The configuration i
 | `items`                | `ItemEntityDto<string>[]`        | List of items/entities displayed or managed on the page.                     |
 | `blockCancel`          | `boolean`                        | Flags whether cancel actions should be blocked.                              |
 
-## Output
+## Output🖼️
 The <code>XPgDetailsComponent</code> is a dynamic Angular component designed for displaying and editing detailed information about selected items in the application. It provides a user-friendly interface for interacting with data, allowing users not only to view details but also to edit and save changes directly.  The <code>XPgDetailsComponent</code> is applied to manage the Fuel Parameter module in the GeoStem application.
 
 ![image](https://github.com/user-attachments/assets/2a63075d-df54-491a-8944-cf38f7d44f74)
