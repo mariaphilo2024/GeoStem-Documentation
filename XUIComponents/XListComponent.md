@@ -61,7 +61,7 @@ XListComponent is  designed to display and manage lists of data. It acts as a dy
 | `disableParentNav`  | `boolean`                    | Disables parent navigation if true.          |
 
 
-## Output
+## Output🖼️
 The XListComponent is a reusable Angular component in  XUI framework that dynamically renders lists or tables based on configuration. The <code>XListComponent</code> interacts with a backend API to fetch data for the list. For example, the backend might return a JSON response with records of ports, and the <code>XListComponent</code> maps these records into table rows.
 
 ![image](https://github.com/user-attachments/assets/abce00bb-8b0b-4fe8-94b4-ed96afb17b59)
