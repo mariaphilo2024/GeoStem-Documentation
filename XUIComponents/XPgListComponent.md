@@ -70,7 +70,7 @@ The table below provides details of the properties in the `XpgListPageConfig` in
 | `checkboxTpl`          | `TemplateRef<any>`          | Template for custom checkboxes.                                                |
 | `rowClass`             | `{ [x: string]: string }`   | Class mappings for row customization.                                          |
 
-<h2>Output</h2>🖼️
+## Output🖼️
 
 <p><strong>Templates  Overview</strong></p>
 A screenshot from the GeoStem application, specifically showing a list of email templates available in the Templates section under the System menu.
