@@ -84,7 +84,7 @@ this.injector = Injector.create({
 
 ---
 
-## OutPut
+## OutPut🖼️
 ### Overview
 The  image shows a form for creating or editing an email template where the XPgDetComponent is utilized..
 
