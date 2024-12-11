@@ -120,6 +120,11 @@ This code defines and configures a dynamic component, `XListEditComponent`, for 
 
 ![image](https://github.com/user-attachments/assets/7678e3d3-427a-443a-b669-343269413563)
 
-
+- The entityName is invoice-additional-cost, which aligns with the module's purpose.
+- The properties items and columns dynamically generate rows and columns for this additional cost table.
+- The title `Additional Cost (HSFO 3.5%)` is dynamically set based on the `pageTitle` property:
+- `+ NEW`: Triggers a function to add a new row to the table, pre-populating it with any default values.
+**Cancel**: Closes the component or form without saving changes.
+**Submit**: Calls a function to validate and save all changes made in the table.
 
 
