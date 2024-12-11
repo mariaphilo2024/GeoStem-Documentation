@@ -56,7 +56,7 @@ this.injector = Injector.create({
 | `shortcuts`          | `ShortcutInput[]`          | Defines keyboard shortcuts for the page.                                    |
 | `downloading`        | `boolean`                   | Indicates whether a file or resource is being downloaded.                   |
 
-## Output
+## Output🖼️
 <code>XPgReadComponent</code> is used for displaying or managing detailed, read-only views of data, with dynamic configuration provided via dependency injection.
 ![image](https://github.com/user-attachments/assets/4e3de9b2-a10e-4311-942b-e4be589db923)
 - In the example shown the <code>XPgReadComponent</code> is used in the agent-read.component .ts to display comprehensive details about an agent. The page includes multiple sections such as personal information, ports, bank accounts, and contact information.
