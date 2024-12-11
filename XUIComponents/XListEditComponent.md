@@ -115,6 +115,7 @@ The purpose of `XListEditComponent` is to manage "list-edit" operations, providi
 | dateDisplayFormat    | `string`                   | Format used for displaying dates.                                       |
 | defaultPickerValue   | `Date`                     | Default date value for date pickers.                                    |
 
+
 ## Output🖼️
 This code defines and configures a dynamic component, `XListEditComponent`, for editing or displaying additional costs associated with an invoice. 
 
