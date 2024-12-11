@@ -124,7 +124,9 @@ This code defines and configures a dynamic component, `XListEditComponent`, for 
 - The properties items and columns dynamically generate rows and columns for this additional cost table.
 - The title `Additional Cost (HSFO 3.5%)` is dynamically set based on the `pageTitle` property:
 - `+ NEW`: Triggers a function to add a new row to the table, pre-populating it with any default values.
+  
 **Cancel**: Closes the component or form without saving changes.
+
 **Submit**: Calls a function to validate and save all changes made in the table.
 
 
