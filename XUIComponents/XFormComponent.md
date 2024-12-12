@@ -104,6 +104,7 @@ newBrokerId: any;
 | `disableAutofocus`   | `boolean`                          | Disables autofocus on form fields when true.                              |
 
 
+
 ## OutPut🖼️
 
 The ouput represents a dynamic broker form rendered using `XFormComponent`. The `XFormInput` configuration in the code determines the fields, their behavior, and the actions upon form interaction. The `XFormComponent` simplifies the form creation and handling process, ensuring consistency and reusability across different entities.
