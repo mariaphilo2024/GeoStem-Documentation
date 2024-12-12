@@ -1,5 +1,5 @@
 ## XFormComponent📖
- `XFormComponent` purpose is to dynamically generate and manage forms based on backend API metadata or domain models. This Component utilized in `inquiry-broker` module.
+ `XFormComponent` purpose is to dynamically generate and manage forms based on backend API metadata or domain models. The XFormComponent is likely used in this broker entity to dynamically generate the form and handle CRUD operations (Create, Read, Update, Delete).
 
  ### Code Example📝
 
@@ -111,6 +111,8 @@ The ouput represents a dynamic broker form rendered using `XFormComponent`. The 
 
 ![image](https://github.com/user-attachments/assets/1dad6b2b-fa29-404b-b7a3-dfeee755f881)
 
+- `pageMode: 'create'`The form is in create mode, which allows the user to add a new broker.
+- `saveText: 'Send For Approval'`Overrides the default save button text with "Send For Approval," enabling users to submit the form for further approval. 
 - When the user clicks **Save**, the `onSave()` function captures the broker's information and performs necessary post-save actions like:
   - Sending emails via `sendBrokerApprovalEmail()`.
   - The form can be shown/hidden using `this.brokerVisible`, as controlled in the `close()` function.
