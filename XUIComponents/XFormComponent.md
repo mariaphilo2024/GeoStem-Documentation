@@ -102,3 +102,8 @@ newBrokerId: any;
 | `hasPicture`         | `boolean`                          | Indicates if the entity has an associated picture.                        |
 | `hasPictureTpl`      | `TemplateRef<any>`                 | Template reference for displaying pictures.                               |
 | `disableAutofocus`   | `boolean`                          | Disables autofocus on form fields when true.                              |
+
+
+## OutPut
+
+![image](https://github.com/user-attachments/assets/26eb91a8-b8aa-4823-8af8-5962214d2018)
