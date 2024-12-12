@@ -106,5 +106,7 @@ newBrokerId: any;
 
 ## OutPut
 
+The screenshot represents a dynamic broker form rendered using `XFormComponent`. The `XFormInput` configuration in the code determines the fields, their behavior, and the actions upon form interaction. The `XFormComponent` simplifies the form creation and handling process, ensuring consistency and reusability across different entities.
+
 ![image](https://github.com/user-attachments/assets/1dad6b2b-fa29-404b-b7a3-dfeee755f881)
 
