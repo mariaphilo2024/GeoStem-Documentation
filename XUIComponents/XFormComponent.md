@@ -104,9 +104,14 @@ newBrokerId: any;
 | `disableAutofocus`   | `boolean`                          | Disables autofocus on form fields when true.                              |
 
 
-## OutPut
+## OutPut🖼️
 
-The screenshot represents a dynamic broker form rendered using `XFormComponent`. The `XFormInput` configuration in the code determines the fields, their behavior, and the actions upon form interaction. The `XFormComponent` simplifies the form creation and handling process, ensuring consistency and reusability across different entities.
+The ouput represents a dynamic broker form rendered using `XFormComponent`. The `XFormInput` configuration in the code determines the fields, their behavior, and the actions upon form interaction. The `XFormComponent` simplifies the form creation and handling process, ensuring consistency and reusability across different entities.
+
 
 ![image](https://github.com/user-attachments/assets/1dad6b2b-fa29-404b-b7a3-dfeee755f881)
+
+- When the user clicks **Save**, the `onSave()` function captures the broker's information and performs necessary post-save actions like:
+  - Sending emails via `sendBrokerApprovalEmail()`.
+  - The form can be shown/hidden using `this.brokerVisible`, as controlled in the `close()` function.
 
