@@ -57,7 +57,7 @@ newBrokerId: any;
   
 - `onInit`: Captures a reference to the initialized `XFormComponent` instance, stored in `xFormComponentPopRef`, for advanced interactions later.
 
-  ### XFormComponent Properties:
+  ### XFormComponent Properties:🧩
 
   | **Property**            | **Type**                                   | **Function**                                                                 |
 |--------------------------|--------------------------------------------|------------------------------------------------------------------------------|
@@ -102,4 +102,5 @@ newBrokerId: any;
 | `hasPicture`            | `boolean`                                 | Indicates if the entity has an associated picture.                           |
 | `hasPictureTpl`         | `TemplateRef<any>`                        | Template reference for displaying pictures.                                  |
 | `disableAutofocus`      | `boolean`                                 | Disables autofocus on form fields when true.                                 |
+
 
