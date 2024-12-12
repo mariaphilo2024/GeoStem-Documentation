@@ -59,8 +59,8 @@ newBrokerId: any;
 
   ### XFormComponent Properties:🧩
 
-  | **Property**            | **Type**                                   | **Function**                                                                 |
-|--------------------------|--------------------------------------------|------------------------------------------------------------------------------|
+  | **Property**            | **Type**                                   | **Function**                                                                 
+|--------------------------|--------------------------------------------|--------------------------------------------------|
 | `pageState`             | `PageState`                               | Tracks the current state of the page (e.g., loading, ready, etc.).           |
 | `parentProcessing`      | `boolean`                                 | Indicates if the parent component is in a processing state.                  |
 | `isProcessing`          | `boolean`                                 | Indicates if the current component is processing.                            |
