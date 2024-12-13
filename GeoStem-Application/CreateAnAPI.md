@@ -37,6 +37,7 @@ namespace GeoStem.Countries
 ```
 
 **Step 2: Add a DbSet for Country in DbContext in EntityFrameWorkCore**
+
 In the **DbContext class**, add a **DbSet** property for the Country entity. This will enable Entity Framework Core to track and manage Country entities and will map it to a Countries table in the database.
 
 ```public class GeoStemDbContext :
