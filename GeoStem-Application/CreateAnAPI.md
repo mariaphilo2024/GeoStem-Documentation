@@ -69,6 +69,7 @@ builder.Entity<Country>(b =>
   });
 ```
 **Step 4: Configure the Database Connection String in appsettings.json** 
+- Go to GeoStem.DbMigrator. Open appsettings.json.
 - Add or update the ConnectionStrings section to include the database connection string.
 ```
 {
