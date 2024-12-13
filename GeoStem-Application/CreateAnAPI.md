@@ -159,13 +159,21 @@ builder.Entity<Country>(b =>
 
 **Step 8: Manage Permission for CountryMaster API in GeoStem.Application.Contracts**
 - Go to the Permissions folder
-- Open a file named GeneralMasterPermission.cs.
+- Open a file named GeographyMasterPermission.cs.
 - Add a Permission for CountryMaster.
-  
+```
+ public static class Countries
+ {
+     public const string Default = GroupName + ".Countries";
+     public const string Create = Default + ".Create";
+     public const string Edit = Default + ".Edit";
+     public const string Delete = Default + ".Delete";
+ }
+```  
   
 **Step 9: Register Master Permission in GeoStem.Application**
 - Go to Countries folder
-- Open CounrtService.cs
+- Open CountryService.cs
 - Register MasterPermission for countries.
 
 ```
