@@ -20,14 +20,14 @@ GeoStem is a comprehensive bunker procurement platform designed to simplify and 
 
 - Customers communicate with executives to request fuel for a specific ship.
 
-**Key details collected:**
-
-     - Ship Name
+### Key details collected:
+   -  Ship Name
+      
+   - Port where fuel is required
      
-     - Port where fuel is required
-     
-     - Date of delivery
+   - Date of delivery
 
+    
 **2. Inquiry Creation:**
 
 - The executive creates an inquiry in the GeoStem system with the collected details.
@@ -35,7 +35,7 @@ GeoStem is a comprehensive bunker procurement platform designed to simplify and 
 **3. Sending Inquiry to Sellers:**
 
    - The system identifies fuel sellers connected to the requested port.
-   - 
+    
    - An email or notification is sent to these sellers, providing details of the fuel inquiry.
 
 **4. Receiving Offers:**
@@ -43,33 +43,34 @@ GeoStem is a comprehensive bunker procurement platform designed to simplify and 
 
 **5. Seller Nomination:**
    - Executives evaluate all offers and select the seller with the best price and terms.
-   - 
+     
    - The nominated seller is finalized in the system.
 
 **6. Confirmation to Customer:**
    - A confirmation is sent to the customer with the nominated seller's details, including price and delivery information.
 
 ### 2. Claims Module
-     - The Claims Module handles any discrepancies or issues that arise after the fuel is delivered.
+
+  - The Claims Module handles any discrepancies or issues that arise after the fuel is delivered.
 
 **How It Works:**
 **1. Receive Post Bunker Details:**
 
 - After the fuel is delivered, sellers provide documentation, such as:
-- 
-      - Delivery Note
   
-      - Fuel Quality Report
+   - Delivery Note
+  
+   - Fuel Quality Report
   
 **2.  Check for Claims:**
 
 - Executives review the delivery documentation and check for claims, such as:
-- 
-      -  Fuel Quality Issues: Incorrect specifications.
   
-      -  Fuel Quantity Issues: Shortage in delivery.
+   - Fuel Quality Issues: Incorrect specifications.
   
-      -  Other fuel-related discrepancies.
+   - Fuel Quantity Issues: Shortage in delivery.
+  
+   - Other fuel-related discrepancies.
 
 **3. Settlement of Claims:**
 
@@ -104,14 +105,19 @@ GeoStem is a comprehensive bunker procurement platform designed to simplify and 
 
 **How It Works:**
 - Generates detailed **reports** on:
-      - Inquiry volumes and response rates.
-      -  Claims resolution efficiency.
-       - Invoice approvals and payment statuses.
-       - Provides analytics to help executives and management make data-driven decisions.
+  
+   - Inquiry volumes and response rates.
+     
+   - Claims resolution efficiency.
+     
+   - Invoice approvals and payment statuses.
+     
+   - Provides analytics to help executives and management make data-driven decisions.
 
 GeoStem simplifies the end-to-end fuel procurement workflow, enabling seamless collaboration between customers, executives, and sellers.
 
-## Introduction
+
+## GeoStem on ABP FrameWork
 The **GEOSTEM** project is built on the **ABP (ASP.NET Boilerplate Platform)**. ABP is an open-source application framework built on top of .NET. ABP enforces a layered architecture including Application, Domain, Infrastructure, and Presentation layers promoting clean separation of concerns and making it easier to manage dependencies and maintain code. It supports **Domain-Driven Design (DDD)** principles and offers guidance for defining entities, value objects, and domain services. . ABP allows to develop applications as a collection of independent modules, which makes it easy to add, replace, or extend functionality. Modules can be reused across multiple projects, and ABP provides a set of pre-built modules to accelerate development.
 
  The  **GEOSTEM** project consists of two key components: a backend API developed with **ASP.NET-Core** and a front-end UI developed with **Angular**. Both components are built on the **ABP Framework**. 
