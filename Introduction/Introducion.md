@@ -9,6 +9,106 @@ GeoStem is a comprehensive bunker procurement platform designed to simplify and 
 **Invoice:** Manage invoice approvals, generation, and payment tracking.
 
 **Report and Analytics:** Provide insights and reports for better decision-making.
+
+## GeoStem Modules
+
+### 1. Inquiry Module
+- The Inquiry Module manages the process of creating and handling fuel requests.
+
+### How It Works:
+  **1. Customer Request:**
+
+- Customers communicate with executives to request fuel for a specific ship.
+
+**Key details collected:**
+
+     - Ship Name
+     
+     - Port where fuel is required
+     
+     - Date of delivery
+
+**2. Inquiry Creation:**
+
+- The executive creates an inquiry in the GeoStem system with the collected details.
+
+**3. Sending Inquiry to Sellers:**
+
+   - The system identifies fuel sellers connected to the requested port.
+   - 
+   - An email or notification is sent to these sellers, providing details of the fuel inquiry.
+
+**4. Receiving Offers:**
+  - Sellers respond to the inquiry with their offer price, fuel quality, and delivery terms.
+
+**5. Seller Nomination:**
+   - Executives evaluate all offers and select the seller with the best price and terms.
+   - 
+   - The nominated seller is finalized in the system.
+
+**6. Confirmation to Customer:**
+   - A confirmation is sent to the customer with the nominated seller's details, including price and delivery information.
+
+### 2. Claims Module
+     - The Claims Module handles any discrepancies or issues that arise after the fuel is delivered.
+
+**How It Works:**
+**1. Receive Post Bunker Details:**
+
+- After the fuel is delivered, sellers provide documentation, such as:
+- 
+      - Delivery Note
+  
+      - Fuel Quality Report
+  
+**2.  Check for Claims:**
+
+- Executives review the delivery documentation and check for claims, such as:
+- 
+      -  Fuel Quality Issues: Incorrect specifications.
+  
+      -  Fuel Quantity Issues: Shortage in delivery.
+  
+      -  Other fuel-related discrepancies.
+
+**3. Settlement of Claims:**
+
+- Claims are resolved with the sellers, ensuring adjustments or compensations where necessary.
+
+ ### 3. Invoice Module
+- The Invoice Module focuses on the financial aspects of fuel procurement, ensuring seamless invoice management and payment tracking.
+
+**How It Works:**
+**1. Receive Invoice from Seller:**
+
+- Sellers submit their invoices for the delivered fuel.
+  
+**2. Seller Invoice Approval:**
+
+- Executives verify the seller's invoice for accuracy and approve it.
+  
+**3. Create Invoice for Customers:**
+
+- The system generates an invoice for the customer based on the approved seller invoice.
+  
+**4. Customer Invoice Approval:**
+
+- The generated invoice is shared with the customer for verification and approval.
+  
+**5. Payment Acknowledgement:**
+
+- Once payment is received from the customer, a payment acknowledgment is issued.
+
+ ### 4. Report and Analytics Module
+- The Report and Analytics Module provides insights and performance tracking across the procurement process.
+
+**How It Works:**
+- Generates detailed **reports** on:
+      - Inquiry volumes and response rates.
+      -  Claims resolution efficiency.
+       - Invoice approvals and payment statuses.
+       - Provides analytics to help executives and management make data-driven decisions.
+
 GeoStem simplifies the end-to-end fuel procurement workflow, enabling seamless collaboration between customers, executives, and sellers.
 
 ## Introduction
