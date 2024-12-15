@@ -1,3 +1,13 @@
+## Overview of GeoStem System
+
+GeoStem is a comprehensive bunker procurement platform designed to simplify and automate the fuel acquisition process for ships. It streamlines the coordination between customers, executives, and fuel sellers, ensuring efficient communication, smooth workflows, and accurate financial management. The system is divided into four key modules: Inquiry, Claims, Invoice, and Report and Analytics.
+
+**Inquiry**: Create, send, and manage fuel inquiries with sellers.
+**Claims:** Handle and resolve fuel quality or quantity discrepancies.
+**Invoice:** Manage invoice approvals, generation, and payment tracking.
+**Report and Analytics:** Provide insights and reports for better decision-making.
+GeoStem simplifies the end-to-end fuel procurement workflow, enabling seamless collaboration between customers, executives, and sellers.
+
 ## Introduction
 The **GEOSTEM** project is built on the **ABP (ASP.NET Boilerplate Platform)**. ABP is an open-source application framework built on top of .NET. ABP enforces a layered architecture including Application, Domain, Infrastructure, and Presentation layers promoting clean separation of concerns and making it easier to manage dependencies and maintain code. It supports **Domain-Driven Design (DDD)** principles and offers guidance for defining entities, value objects, and domain services. . ABP allows to develop applications as a collection of independent modules, which makes it easy to add, replace, or extend functionality. Modules can be reused across multiple projects, and ABP provides a set of pre-built modules to accelerate development.
 
