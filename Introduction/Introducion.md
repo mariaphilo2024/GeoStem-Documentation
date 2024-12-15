@@ -3,8 +3,11 @@
 GeoStem is a comprehensive bunker procurement platform designed to simplify and automate the fuel acquisition process for ships. It streamlines the coordination between customers, executives, and fuel sellers, ensuring efficient communication, smooth workflows, and accurate financial management. The system is divided into four key modules: Inquiry, Claims, Invoice, and Report and Analytics.
 
 **Inquiry**: Create, send, and manage fuel inquiries with sellers.
+
 **Claims:** Handle and resolve fuel quality or quantity discrepancies.
+
 **Invoice:** Manage invoice approvals, generation, and payment tracking.
+
 **Report and Analytics:** Provide insights and reports for better decision-making.
 GeoStem simplifies the end-to-end fuel procurement workflow, enabling seamless collaboration between customers, executives, and sellers.
 
