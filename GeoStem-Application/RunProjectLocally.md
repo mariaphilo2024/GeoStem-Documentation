@@ -65,7 +65,6 @@ Step 3. Replace the content as below:
 }
 ````
 
-![Alt text](docs/images/screenshot-user-secrets-002.png?raw=true "Manage User Secrets")
 
 The solution is configured to use **Entity Framework Core** with **MS SQL Server**
 
