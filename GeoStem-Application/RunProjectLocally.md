@@ -20,7 +20,7 @@ Go to the `aspnet-core` folder, open `GeoStem.sln`
 ##### Connection String
 
 Step 1. Right Click `GeoStem.HttpApi.Host` project and select `Manage User Secrets`
-![Alt text](docs/images/screenshot-user-secrets-001.png?raw=true "Manage User Secrets")
+
 
 Step 2. This opens the `secrets.json`
 
