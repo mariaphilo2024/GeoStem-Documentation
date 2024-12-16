@@ -1,5 +1,5 @@
 # GeoStem
-![.NET Core](https://github.com/Ingenium-Marine-Solutions/GeoStem/workflows/.NET%20Core/badge.svg?branch=main)
+
 
 ##### Tech Stack
 - [ASP.NET Core](https://dotnet.microsoft.com/learn/aspnet/what-is-aspnet-core)
@@ -10,8 +10,8 @@
 ## Get Started - WebApi (ASP.NET Core)
 #### Setup Your Development Environment
 _Pre-Requirements_
-* [Visual Studio 2019](https://visualstudio.microsoft.com/vs/)
-* [.NET Core 3.1+](https://www.microsoft.com/net/download/dotnet-core/)
+* [Visual Studio 2022](https://visualstudio.microsoft.com/vs/)
+* [.NET Core 7+](https://www.microsoft.com/net/download/dotnet-core/)
 
 Go to the `aspnet-core` folder, open `GeoStem.sln`
 
