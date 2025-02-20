@@ -85,7 +85,7 @@ The solution has `GeoStem.DbMigrator` console application which applies migratio
 
 Use the Ef Core `Update-Database` command which applies pending schema migrations during development time.
 
-- Right click to the `AgencyPlatform.HttpApi.Host` project and select **Set as StartUp Project**: 
+- Right click to the `GeoStem.HttpApi.Host` project and select **Set as StartUp Project**: 
 - Open the **Package Manager Console**, select `GeoStem.EntityFrameworkCore` project as the **Default Project** and run the `Update-Database` command:
 
 > **`GeoStem.DbMigrator` tool**, always migrates the schema and seeds the database, where `Update-Database` only migrates the schema.
