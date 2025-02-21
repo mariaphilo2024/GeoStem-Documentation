@@ -48,7 +48,7 @@ In the **DbContext class**, add a **DbSet** property for the Country entity. Thi
     /* Add DbSet properties for your Aggregate Roots / Entities here. */
     public DbSet<Continent> Continents { get; set; }
     public DbSet<Currency> Currencies { get; set; }
-    public DbSet<Country> Countries { get; set; }
+    public DbSet<Country> Countries { get; set; }👈
 ```
 
 
