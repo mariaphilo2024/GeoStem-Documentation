@@ -16,8 +16,6 @@ this.injector = Injector.create({
 ```
 **Component Assignment** 
 
-<br>
-
 - <code>**this.component**</code>: Assigns the XPgReadComponent to the component property.
  
 **Injector Creation**
